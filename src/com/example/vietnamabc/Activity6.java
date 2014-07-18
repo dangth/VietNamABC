@@ -188,7 +188,7 @@ public class Activity6 extends Activity implements OnCompletionListener,
 		});
 
 	}
-
+	//Update Audio when tab next or previos..
 	private void updateAudio(int position) {
 		images.setImageResource(Constants.PICTURES[position]);
 		title.setText(Constants.TITLE[position]);
@@ -196,17 +196,18 @@ public class Activity6 extends Activity implements OnCompletionListener,
 		btnPlay.setImageResource(R.drawable.btn_pause);
 
 	}
-
+	//Play Audio
 	private void playAudio(int paramInt) {
 		mp = MediaPlayer.create(this, paramInt);
 		mp.setAudioStreamType(AudioManager.STREAM_MUSIC);
 		mp.start();
 		this.mp.start();
+		//Run seekBar
 		seekBar.setProgress((int) startTime);
 		mHandler.postDelayed(mUpdateTimeTask, 100);
 
 	}
-
+	//Stop Audio
 	private void stopAudio() {
 		try {
 			if (this.mp != null) {
@@ -224,14 +225,14 @@ public class Activity6 extends Activity implements OnCompletionListener,
 				System.out.println(localException);
 		}
 	}
-
+	//Pause audio
 	private void pauseAudio() {
 		if (this.mp != null && mp.isPlaying()) {
 			this.playbackPosition = mp.getCurrentPosition();
 			mp.pause();
 		}
 	}
-
+	//Restart Audio
 	private void restartAudio() {
 		if (mp != null && !mp.isPlaying()) {
 			mp.seekTo(playbackPosition);
