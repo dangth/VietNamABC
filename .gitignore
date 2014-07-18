@@ -34,3 +34,12 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+.settings
+assets
+bin
+gen
+libs
+.classpath
+.project
+proguard-project
+project.propertiess

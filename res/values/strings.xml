@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VietNamABC</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_1">Sự Tích Trầu Cau</string>
+    <string name="artist_1">Truyện Cổ Tích Việt Nam</string>
+    <string name="title_2">Thánh Gióng</string>
+    <string name="artist_2">Truyện Cổ Tích Việt Nam</string>
+    <string name="title_3">Thạch Sanh</string>
+    <string name="artist_3">Truyện Cổ Tích Việt Nam</string>
+    <string name="title_4">Tấm Cám </string>
+    <string name="artist_4">Truyện Cổ Tích Việt Nam</string>
+    <string name="title_5">Sơn Tinh Thủy Tinh</string>
+    <string name="artist_5">Truyện Cổ Tích Việt Nam</string>
+    <string name="title_6">Sọ Dừa</string>
+    <string name="artist_6">Truyện Cổ Tích Việt Nam</string>
+    <string name="title_7">Quả Táo Của Bác Hồ</string>
+    <string name="artist_7">Truyện Đạo Đức</string>
+    <string name="title_8">Nàng Tiên Cá</string>
+    <string name="artist_8">Truyện Cổ Tích Thế Giới</string>
+    <string name="title_9">Mỵ Châu Trọng Thủy</string>
+    <string name="artist_9">Truyện Cổ Tích Việt Nam</string>
+    <string name="title_10">Gấu Con Bị Sâu Răng</string>
+    <string name="artist_10">Truyện Đạo Đức</string>
+  <!--  <string name="title_11">Cóc Kiện Trời</string>
+    <string name="artist_11">Truyện Cổ Tích Việt Nam</string>
+    <string name="title_12">Cô Bé Quàng Khăn Đỏ</string>
+    <string name="artist_12">Truyện Cổ Tích Việt Nam</string>
+    <string name="title_13">Cô Bé Lo Lem</string>
+    <string name="artist_13">Truyện Cổ Tích Thế Giới</string>
+    <string name="title_14">Cô Bé Bán Diêm</string>
+    <string name="artist_14">Truyện Cổ Tích Thế Giới</string>
+    <string name="title_15">Chú Gà Trống Kiêu Căng</string>
+    <string name="artist_15">Truyện Đạo Đức</string>
+    <string name="title_16">Sự Tích Cây Vú Sữa</string>
+    <string name="artist_16">Truyện Cổ Tích Việt Nam</string>
+    <string name="title_17">Cây Tre Trăm Đốt</string>
+    <string name="artist_17">Truyện Cổ Tích Việt Nam</string>
+    <string name="title_18">Cây Khế</string>
+    <string name="artist_18">Truyện Cổ Tích Việt Nam</string>
+    <string name="title_19">Câu Chuyện Bó Đũa</string>
+    <string name="artist_19">Truyện Đạo Đưc</string>
+    <string name="title_20">Cáo Thỏ Và Gà Trống</string>
+    <string name="artist_20">Truyện Cổ Tích Việt Nam</string> --> 
+	
+</resources>

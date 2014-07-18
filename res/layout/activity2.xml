@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bga2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bảng Chữ Cái Tiếng Việt" 
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="321dp"
+        android:layout_height="378dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:columnWidth="10dp"
+        android:numColumns="5"
+        android:scrollbars="vertical"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp" >
+
+    </GridView>
+
+</LinearLayout>
