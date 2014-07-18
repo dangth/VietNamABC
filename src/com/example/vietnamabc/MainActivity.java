@@ -16,6 +16,14 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 import android.os.Build;
 
+/*
+	Main activity
+* 	Activity2: Alphabet Vietnamese Board
+*	Activity 3: Letter and images
+*	Activity 4: Learn write letter
+*	Activity 5: List story.
+* 	Activity 6: Play audio story
+*/
 public class MainActivity extends Activity implements OnClickListener {
 
 	ImageButton btnAlphabet, btnWrite, btnRead;
@@ -26,9 +34,9 @@ public class MainActivity extends Activity implements OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		btnAlphabet = (ImageButton)findViewById(R.id.btnAlphabet);
-		btnWrite = (ImageButton)findViewById(R.id.btnWrite);
-		btnRead = (ImageButton)findViewById(R.id.btnRead);
+		btnAlphabet = (ImageButton)findViewById(R.id.btnAlphabet);//Board alphabet vietnamese
+		btnWrite = (ImageButton)findViewById(R.id.btnWrite); // Learn write letter
+		btnRead = (ImageButton)findViewById(R.id.btnRead); //Read story
 		btnAlphabet.setOnClickListener(this);
 		btnWrite.setOnClickListener(this);
 		btnRead.setOnClickListener(this);
@@ -39,30 +47,34 @@ public class MainActivity extends Activity implements OnClickListener {
 	@Override
 	public void onClick(View v) {
 		if(v.getId()==R.id.btnAlphabet){
+			//View Activity2
 			Intent intent = new Intent(MainActivity.this,Activity2.class);
 			intent.putExtra("id", 1);
 			startActivity(intent);
 			stopAudio();
 		}
 		if(v.getId()==R.id.btnWrite){
+			//View Activity2
 			Intent intent = new Intent(this,Activity2.class);
 			intent.putExtra("id", 2);
 			startActivity(intent);
 		}
 		if(v.getId()==R.id.btnRead){
+			//View Activity5
 			Intent intent = new Intent(this,Activity5.class);
 			startActivity(intent);
 			stopAudio();
 		}
 			
 	}
-
+	
+	//Play Audio
 	private void playAudio(int paramInt) {
 		this.mediaPlayer = MediaPlayer.create(this, paramInt);
 		this.mediaPlayer.setScreenOnWhilePlaying(true);
 		this.mediaPlayer.start();
 	}
-
+	//Stop Audio
 	private void stopAudio() {
 		try {
 			if (this.mediaPlayer != null) {
